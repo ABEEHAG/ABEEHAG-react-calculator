@@ -32,7 +32,6 @@ const App = () => {
   }
 
   const handleOperators = (event) => {
-
     setOperator(event.target.value)
 
     if (prevState !== '0') {
@@ -95,7 +94,7 @@ const App = () => {
     if (currentState === '0') return
 
     let total = 0
-    
+
     switch (operator) {
       case '*':
         total = (parseFloat(prevState) * parseFloat(currentState)).toString()
