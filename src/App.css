@@ -1,0 +1,16 @@
+body,
+html {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  background-color: black;
+  margin: auto;
+  width: 375px;
+}
