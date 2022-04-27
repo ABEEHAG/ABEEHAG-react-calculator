@@ -86,7 +86,7 @@ const App = () => {
   }
 
   const handleSqrt = () => {
-    setCurrentState(previousState => Math.sqrt(previousState))
+    setCurrentState(previousState => (Math.sqrt(previousState)).toString())
   }
 
   const handleEquals = (event) => {
